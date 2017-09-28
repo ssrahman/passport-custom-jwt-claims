@@ -38,7 +38,7 @@ server.
 ##  Installation
 Install the package via composer:
 ```bash
-composer require benbjurstrom/passport-custom-jwt-claims
+composer require ssrahman/passport-custom-jwt-claims
 ```
 
 Add the service provider to the config/app.php providers array. 
@@ -47,7 +47,7 @@ Add the service provider to the config/app.php providers array.
 // config/app.php
 'providers' => [
     ...
-    BenBjurstrom\JwtClaims\JwtClaimsServiceProvider::class
+    SSRahman\JwtClaims\JwtClaimsServiceProvider::class
 ];
 ```
 
@@ -90,7 +90,7 @@ return [
     |
     */
     'app_claims' => [
-        'iss' => url('')
+        'iss' => env('APP_URL')
     ]
 
 ];
