@@ -1,6 +1,6 @@
 <?php
 
-namespace BenBjurstrom\JwtClaims;
+namespace SSRahman\JwtClaims;
 
 use League\OAuth2\Server\Entities\ClientEntityInterface;
 use Laravel\Passport\Bridge\AccessTokenRepository as PassportAccessTokenRepository;

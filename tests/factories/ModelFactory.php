@@ -1,6 +1,6 @@
 <?php
 
-use BenBjurstrom\JwtClaims\Tests\User;
+use SSRahman\JwtClaims\Tests\User;
 /*
 |--------------------------------------------------------------------------
 | Model Factories

@@ -1,6 +1,6 @@
 <?php
 
-namespace BenBjurstrom\JwtClaims;
+namespace SSRahman\JwtClaims;
 
 use RuntimeException;
 use Lcobucci\JWT\Signer\Key;

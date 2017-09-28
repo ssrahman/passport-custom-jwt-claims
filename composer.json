@@ -1,5 +1,5 @@
 {
-    "name": "benbjurstrom/passport-custom-jwt-claims",
+    "name": "ssrahman/passport-custom-jwt-claims",
     "description": "Customize JWT claims in Laravel Passport access tokens",
     "type": "laravel",
     "keywords": [
@@ -24,18 +24,18 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Ben Bjurstrom",
-            "email": "bbjurstrom@gmail.com"
+            "name": "S.S. Rahman",
+            "email": "ssrahman@netfunda.com"
         }
     ],
     "autoload": {
         "psr-4": {
-            "BenBjurstrom\\JwtClaims\\": "src/"
+            "SSRahman\\JwtClaims\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "BenBjurstrom\\JwtClaims\\Tests\\": "tests"
+            "SSRahman\\JwtClaims\\Tests\\": "tests"
         }
     },
     "minimum-stability": "dev",

@@ -1,6 +1,6 @@
 <?php
 
-namespace BenBjurstrom\JwtClaims\Tests;
+namespace SSRahman\JwtClaims\Tests;
 
 use Firebase\JWT\JWT;
 

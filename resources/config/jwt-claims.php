@@ -26,6 +26,6 @@ return [
     |
     */
     'app_claims' => [
-        'iss' => url('')
+        'iss' => env('APP_URL')
     ]
 ];

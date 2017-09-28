@@ -1,5 +1,5 @@
 <?php
-namespace BenBjurstrom\JwtClaims;
+namespace SSRahman\JwtClaims;
 use App;
 use Laravel\Passport\Passport;
 use Laravel\Passport\PassportServiceProvider;
@@ -28,7 +28,7 @@ class JwtClaimsServiceProvider extends PassportServiceProvider
     {
         return new AuthorizationServer(
             $this->app->make(ClientRepository::class),
-            $this->app->make(AccessTokenRepository::class), // BenBjurstrom\JwtClaims\AccessTokenRepository
+            $this->app->make(AccessTokenRepository::class), // SSRahman\JwtClaims\AccessTokenRepository
             $this->app->make(ScopeRepository::class),
             'file://'.Passport::keyPath('oauth-private.key'),
             'file://'.Passport::keyPath('oauth-public.key')
